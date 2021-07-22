@@ -9,8 +9,8 @@ import Sub from './Sub';
 import Footer from './Footer';
 import Contact from './Contact';
 import Vue from "./Vue"
-import Reactt from './Reactt'; 
-import Angular  from './Angular';
+import Reactt from './Reactt';
+import Angular from './Angular';
 import Jquery from './Jquery';
 import Semantic from './Semantic';
 import Svelt from './Svelt';
@@ -23,6 +23,7 @@ import Node from './Node';
 import Mysql from './Mysql';
 import Mongo from './Mongo';
 import Post from './Post';
+import Python from "./Python"
 /*      <Route path="/reactt">
 <Navbar />
 <Reactt />
@@ -48,79 +49,84 @@ function App() {
           <Route path="/Vue">
             <Navbar />
             <Vue />
-           
+
           </Route>
           <Route path="/reactt">
             <Navbar />
             <Reactt />
-           
+
           </Route>
           <Route path="/angular">
             <Navbar />
             <Angular />
-           
+
           </Route>
           <Route path="/jquery">
             <Navbar />
             <Jquery />
-           
+
           </Route>
           <Route path="/semantic">
             <Navbar />
-            <Semantic/>
-           
+            <Semantic />
+
           </Route>
           <Route path="/svelt">
             <Navbar />
             <Svelt />
-           
+
           </Route>
           <Route path="/django">
             <Navbar />
             <Django />
-           
+
           </Route>
           <Route path="/laravel">
             <Navbar />
             <Laravel />
-           
+
           </Route>
           <Route path="/flask">
             <Navbar />
             <Flask />
-           
+
           </Route>
           <Route path="/net">
             <Navbar />
             <Net />
-           
+
           </Route>
           <Route path="/express">
             <Navbar />
             <Express />
-           
+
           </Route>
           <Route path="/node">
             <Navbar />
             <Node />
-           
+
           </Route>
           <Route path="/mysql">
             <Navbar />
             <Mysql />
-           
+
           </Route>
           <Route path="/mongo">
             <Navbar />
             <Mongo />
-           
+
           </Route>
           <Route path="/postgre">
             <Navbar />
             <Post />
-           
+
           </Route>
-          
+          <Route path="/python">
+            <Navbar />
+            <Python />
+
+          </Route>
+
           <Route path="/">
             <Navbar />
             <Home />

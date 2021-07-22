@@ -562,9 +562,11 @@ function Courses() {
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3" style={{ userSelect: 'auto' }}>Python</h1>
                   <p className="leading-relaxed" style={{ userSelect: 'auto' }}>                   learn vue js for free
                   </p>
-                  <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded relative top-10 left-5">
-                    Enroll now its Free
-                  </button>
+                  <Link to="Python">
+                    <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded relative top-10 left-5">
+                      Enroll now its Free
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
