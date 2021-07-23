@@ -24,6 +24,16 @@ import Mysql from './Mysql';
 import Mongo from './Mongo';
 import Post from './Post';
 import Python from "./Python"
+import Java from './Java';
+import C from './C';
+import Cpp from "./Cpp"
+import Cs from "./Cs"
+import Dsa from "./Dsa"
+import Ml from "./Ml"
+import Ai from "./Ai"
+import Aru from "./Aru"
+import Appd from "./Appd"
+import Kotlin from "./Kotlin"
 /*      <Route path="/reactt">
 <Navbar />
 <Reactt />
@@ -126,7 +136,56 @@ function App() {
             <Python />
 
           </Route>
+          <Route path="/java">
+            <Navbar />
+            <Java />
 
+          </Route>
+          <Route path="/C">
+            <Navbar />
+            <C />
+
+          </Route>
+          <Route path="/Cpp">
+            <Navbar />
+            <Cpp />
+
+          </Route>
+          <Route path="/kotlin">
+            <Navbar />
+            <Kotlin />
+
+          </Route>
+          <Route path="/cs">
+            <Navbar />
+            <Cs />
+
+          </Route>
+          <Route path="/dsa">
+            <Navbar />
+            <Dsa />
+
+          </Route>
+          <Route path="/ml">
+            <Navbar />
+            <Ml />
+
+          </Route>
+          <Route path="/ai">
+            <Navbar />
+            <Ai />
+
+          </Route>
+          <Route path="/aruduino">
+            <Navbar />
+            <Aru />
+
+          </Route>
+          <Route path="/appd">
+            <Navbar />
+            <Appd />
+
+          </Route>
           <Route path="/">
             <Navbar />
             <Home />
